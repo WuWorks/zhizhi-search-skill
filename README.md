@@ -61,6 +61,12 @@ npx skills add WuWorks/zhizhi-search-skill
 
 它会问你要装给哪些 Agent（Claude Code、Codex、Cursor 等）。
 
+想先确认它能被识别、看看到底会装什么，加 `--list`，只列清单不安装：
+
+```sh
+npx skills add WuWorks/zhizhi-search-skill --list
+```
+
 ## 兼容性
 
 任何支持 `skills/` 目录加载的 Agent 都能用，包括 Claude Code、Codex、DSH 等。技能目录名统一为 `zhizhi-search`。

@@ -61,6 +61,12 @@ npx skills add WuWorks/zhizhi-search-skill
 
 It asks which agents to install it for — Claude Code, Codex, Cursor and others.
 
+To confirm the repo is recognized and see what would be installed, add `--list` — it lists without installing:
+
+```sh
+npx skills add WuWorks/zhizhi-search-skill --list
+```
+
 ## Compatibility
 
 Works with any agent that loads skills from a `skills/` directory — Claude Code, Codex, DSH and others. The directory name is always `zhizhi-search`.
