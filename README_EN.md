@@ -53,6 +53,14 @@ Casual chat, pure reasoning, writing, or when existing material already answers:
 
 2. Drag `SKILL.md` onto your agent; it installs itself.
 
+3. Or install it with one command via the skills.sh CLI:
+
+```sh
+npx skills add WuWorks/zhizhi-search-skill
+```
+
+It asks which agents to install it for — Claude Code, Codex, Cursor and others.
+
 ## Compatibility
 
 Works with any agent that loads skills from a `skills/` directory — Claude Code, Codex, DSH and others. The directory name is always `zhizhi-search`.
