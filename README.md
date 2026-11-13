@@ -53,18 +53,11 @@
 
 2.把`SKILL.md` 拖动给你的Agent代理，它会自动安装。
 
-3.或者用 skills.sh 的 CLI 一条命令装：
+3.或者用一条命令装：
 
 ```sh
-npx skills add WuWorks/zhizhi-search-skill
-```
-
-它会问你要装给哪些 Agent（Claude Code、Codex、Cursor 等）。
-
-想先确认它能被识别、看看到底会装什么，加 `--list`，只列清单不安装：
-
-```sh
-npx skills add WuWorks/zhizhi-search-skill --list
+npx skills add WuWorks/zhizhi-search-skill          # 安装
+npx skills add WuWorks/zhizhi-search-skill --list   # 只看会装什么
 ```
 
 ## 兼容性

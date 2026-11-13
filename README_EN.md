@@ -53,18 +53,11 @@ Casual chat, pure reasoning, writing, or when existing material already answers:
 
 2. Drag `SKILL.md` onto your agent; it installs itself.
 
-3. Or install it with one command via the skills.sh CLI:
+3. Or install it with one command:
 
 ```sh
-npx skills add WuWorks/zhizhi-search-skill
-```
-
-It asks which agents to install it for — Claude Code, Codex, Cursor and others.
-
-To confirm the repo is recognized and see what would be installed, add `--list` — it lists without installing:
-
-```sh
-npx skills add WuWorks/zhizhi-search-skill --list
+npx skills add WuWorks/zhizhi-search-skill          # install
+npx skills add WuWorks/zhizhi-search-skill --list   # list only
 ```
 
 ## Compatibility
