@@ -1,0 +1,7 @@
+# 内部研发文档：只在本地，不随 skill 分发
+/plans/
+/data/
+/SERACH.md
+/SERACH.md.bak*
+/补充-00.md
+*.bak*
