@@ -1,3 +1,5 @@
+[English](README_EN.md) | 中文
+
 # 知止 · zhizhi-search
 
 **Knowing when to stop — Intent-bounded, minimally sufficient search.**
