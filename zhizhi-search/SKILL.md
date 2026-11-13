@@ -40,14 +40,6 @@ Four steps per question, in order. Each step names its input and its output; do 
 
 Reporting "I could not find it" is a complete result, not a failure of the workflow. Reaching step 4 from a `Drifted` or `Not found` verdict is success.
 
-## Quick Reference
-
-| Verdict | Meaning | Next step |
-|---|---|---|
-| **Matched** | The result answers the thing the user asked | Continue to delivery |
-| **Drifted** | It is not that thing | Stop; report what you found and why it is not it |
-| **Not found** | No results | Say so; do not change the question |
-
 ## When a Round Fails
 
 | Trigger | First fix | If it still fails |
@@ -78,8 +70,6 @@ Reporting "I could not find it" is a complete result, not a failure of the workf
 - **Matched:** one conclusion + one quotable, independently reproducible piece of evidence + source.
 - **Drifted:** state what you actually found and where it differs from the request; end with one question (change direction / narrow it down) — one question, no follow-up, no answering for the user.
 - **Not found:** state what you searched and where you stopped; end with the same one question.
-
-A suggestion is only a suggestion: never let it replace the user's direction mid-search, and never deliver it as a conclusion.
 
 ## Do Not Do This
 
